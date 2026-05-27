@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_kth_largest_py": {
+            "label": "Test (test_kth_largest.py)",
+            "command": "python src/test_kth_largest.py"
+        },
+        "test_test_selection_py": {
+            "label": "Test (test_selection.py)",
+            "command": "python src/test_selection.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_kth_largest_py": {
+            "label": "ipdb Test (test_kth_largest.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_kth_largest.py"
+        },
+        "dbg_test_test_selection_py": {
+            "label": "ipdb Test (test_selection.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_selection.py"
+        }
+    }
+}

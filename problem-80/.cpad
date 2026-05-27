@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_bst_py": {
+            "label": "Test (test_bst.py)",
+            "command": "python src/test_bst.py"
+        },
+        "test_test_validate_bst_py": {
+            "label": "Test (test_validate_bst.py)",
+            "command": "python src/test_validate_bst.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_bst_py": {
+            "label": "ipdb Test (test_bst.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_bst.py"
+        },
+        "dbg_test_test_validate_bst_py": {
+            "label": "ipdb Test (test_validate_bst.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_validate_bst.py"
+        }
+    }
+}

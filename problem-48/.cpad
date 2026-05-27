@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_erase_intervals_py": {
+            "label": "Test (test_erase_intervals.py)",
+            "command": "python src/test_erase_intervals.py"
+        },
+        "test_test_nonoverlap_py": {
+            "label": "Test (test_nonoverlap.py)",
+            "command": "python src/test_nonoverlap.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_erase_intervals_py": {
+            "label": "ipdb Test (test_erase_intervals.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_erase_intervals.py"
+        },
+        "dbg_test_test_nonoverlap_py": {
+            "label": "ipdb Test (test_nonoverlap.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_nonoverlap.py"
+        }
+    }
+}

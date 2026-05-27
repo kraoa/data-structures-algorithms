@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_edit_distance_py": {
+            "label": "Test (test_edit_distance.py)",
+            "command": "python src/test_edit_distance.py"
+        },
+        "test_test_strings_py": {
+            "label": "Test (test_strings.py)",
+            "command": "python src/test_strings.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_edit_distance_py": {
+            "label": "ipdb Test (test_edit_distance.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_edit_distance.py"
+        },
+        "dbg_test_test_strings_py": {
+            "label": "ipdb Test (test_strings.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_strings.py"
+        }
+    }
+}

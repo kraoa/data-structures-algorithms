@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_counting_py": {
+            "label": "Test (test_counting.py)",
+            "command": "python src/test_counting.py"
+        },
+        "test_test_distinct_subsequences_py": {
+            "label": "Test (test_distinct_subsequences.py)",
+            "command": "python src/test_distinct_subsequences.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_counting_py": {
+            "label": "ipdb Test (test_counting.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_counting.py"
+        },
+        "dbg_test_test_distinct_subsequences_py": {
+            "label": "ipdb Test (test_distinct_subsequences.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_distinct_subsequences.py"
+        }
+    }
+}

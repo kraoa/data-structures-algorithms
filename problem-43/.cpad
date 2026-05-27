@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_flatten_py": {
+            "label": "Test (test_flatten.py)",
+            "command": "python src/test_flatten.py"
+        },
+        "test_test_tree_py": {
+            "label": "Test (test_tree.py)",
+            "command": "python src/test_tree.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_flatten_py": {
+            "label": "ipdb Test (test_flatten.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_flatten.py"
+        },
+        "dbg_test_test_tree_py": {
+            "label": "ipdb Test (test_tree.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_tree.py"
+        }
+    }
+}

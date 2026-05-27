@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_num_array_py": {
+            "label": "Test (test_num_array.py)",
+            "command": "python src/test_num_array.py"
+        },
+        "test_test_range_queries_py": {
+            "label": "Test (test_range_queries.py)",
+            "command": "python src/test_range_queries.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_num_array_py": {
+            "label": "ipdb Test (test_num_array.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_num_array.py"
+        },
+        "dbg_test_test_range_queries_py": {
+            "label": "ipdb Test (test_range_queries.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_range_queries.py"
+        }
+    }
+}

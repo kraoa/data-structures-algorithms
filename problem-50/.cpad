@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_decode_string_py": {
+            "label": "Test (test_decode_string.py)",
+            "command": "python src/test_decode_string.py"
+        },
+        "test_test_encoding_py": {
+            "label": "Test (test_encoding.py)",
+            "command": "python src/test_encoding.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_decode_string_py": {
+            "label": "ipdb Test (test_decode_string.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_decode_string.py"
+        },
+        "dbg_test_test_encoding_py": {
+            "label": "ipdb Test (test_encoding.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_encoding.py"
+        }
+    }
+}

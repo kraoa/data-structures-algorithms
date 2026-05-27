@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_patterns_py": {
+            "label": "Test (test_patterns.py)",
+            "command": "python src/test_patterns.py"
+        },
+        "test_test_regex_py": {
+            "label": "Test (test_regex.py)",
+            "command": "python src/test_regex.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_patterns_py": {
+            "label": "ipdb Test (test_patterns.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_patterns.py"
+        },
+        "dbg_test_test_regex_py": {
+            "label": "ipdb Test (test_regex.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_regex.py"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_jump_game_py": {
+            "label": "Test (test_jump_game.py)",
+            "command": "python src/test_jump_game.py"
+        },
+        "test_test_jumps_py": {
+            "label": "Test (test_jumps.py)",
+            "command": "python src/test_jumps.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_jump_game_py": {
+            "label": "ipdb Test (test_jump_game.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_jump_game.py"
+        },
+        "dbg_test_test_jumps_py": {
+            "label": "ipdb Test (test_jumps.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_jumps.py"
+        }
+    }
+}

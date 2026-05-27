@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_combinations_py": {
+            "label": "Test (test_combinations.py)",
+            "command": "python src/test_combinations.py"
+        },
+        "test_test_combo_sum_py": {
+            "label": "Test (test_combo_sum.py)",
+            "command": "python src/test_combo_sum.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_combinations_py": {
+            "label": "ipdb Test (test_combinations.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_combinations.py"
+        },
+        "dbg_test_test_combo_sum_py": {
+            "label": "ipdb Test (test_combo_sum.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_combo_sum.py"
+        }
+    }
+}

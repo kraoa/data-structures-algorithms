@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_journey_py": {
+            "label": "Test (test_journey.py)",
+            "command": "python src/test_journey.py"
+        },
+        "test_test_refueling_py": {
+            "label": "Test (test_refueling.py)",
+            "command": "python src/test_refueling.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_journey_py": {
+            "label": "ipdb Test (test_journey.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_journey.py"
+        },
+        "dbg_test_test_refueling_py": {
+            "label": "ipdb Test (test_refueling.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_refueling.py"
+        }
+    }
+}

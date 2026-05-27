@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_spans_py": {
+            "label": "Test (test_spans.py)",
+            "command": "python src/test_spans.py"
+        },
+        "test_test_stock_span_py": {
+            "label": "Test (test_stock_span.py)",
+            "command": "python src/test_stock_span.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_spans_py": {
+            "label": "ipdb Test (test_spans.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_spans.py"
+        },
+        "dbg_test_test_stock_span_py": {
+            "label": "ipdb Test (test_stock_span.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_stock_span.py"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_cheapest_flights_py": {
+            "label": "Test (test_cheapest_flights.py)",
+            "command": "python src/test_cheapest_flights.py"
+        },
+        "test_test_flights_py": {
+            "label": "Test (test_flights.py)",
+            "command": "python src/test_flights.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_cheapest_flights_py": {
+            "label": "ipdb Test (test_cheapest_flights.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_cheapest_flights.py"
+        },
+        "dbg_test_test_flights_py": {
+            "label": "ipdb Test (test_flights.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_flights.py"
+        }
+    }
+}

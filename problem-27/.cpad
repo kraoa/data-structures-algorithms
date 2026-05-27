@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_frequency_py": {
+            "label": "Test (test_frequency.py)",
+            "command": "python src/test_frequency.py"
+        },
+        "test_test_top_k_py": {
+            "label": "Test (test_top_k.py)",
+            "command": "python src/test_top_k.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_frequency_py": {
+            "label": "ipdb Test (test_frequency.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_frequency.py"
+        },
+        "dbg_test_test_top_k_py": {
+            "label": "ipdb Test (test_top_k.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_top_k.py"
+        }
+    }
+}

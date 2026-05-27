@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_coin_change_py": {
+            "label": "Test (test_coin_change.py)",
+            "command": "python src/test_coin_change.py"
+        },
+        "test_test_coins_py": {
+            "label": "Test (test_coins.py)",
+            "command": "python src/test_coins.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_coin_change_py": {
+            "label": "ipdb Test (test_coin_change.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_coin_change.py"
+        },
+        "dbg_test_test_coins_py": {
+            "label": "ipdb Test (test_coins.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_coins.py"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_elevation_py": {
+            "label": "Test (test_elevation.py)",
+            "command": "python src/test_elevation.py"
+        },
+        "test_test_trap_py": {
+            "label": "Test (test_trap.py)",
+            "command": "python src/test_trap.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_elevation_py": {
+            "label": "ipdb Test (test_elevation.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_elevation.py"
+        },
+        "dbg_test_test_trap_py": {
+            "label": "ipdb Test (test_trap.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_trap.py"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_min_cut_py": {
+            "label": "Test (test_min_cut.py)",
+            "command": "python src/test_min_cut.py"
+        },
+        "test_test_mincuts_py": {
+            "label": "Test (test_mincuts.py)",
+            "command": "python src/test_mincuts.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_min_cut_py": {
+            "label": "ipdb Test (test_min_cut.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_min_cut.py"
+        },
+        "dbg_test_test_mincuts_py": {
+            "label": "ipdb Test (test_mincuts.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_mincuts.py"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_bipartite_py": {
+            "label": "Test (test_bipartite.py)",
+            "command": "python src/test_bipartite.py"
+        },
+        "test_test_coloring_py": {
+            "label": "Test (test_coloring.py)",
+            "command": "python src/test_coloring.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_bipartite_py": {
+            "label": "ipdb Test (test_bipartite.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_bipartite.py"
+        },
+        "dbg_test_test_coloring_py": {
+            "label": "ipdb Test (test_coloring.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_coloring.py"
+        }
+    }
+}

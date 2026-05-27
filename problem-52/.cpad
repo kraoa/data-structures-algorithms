@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_longest_palindrome_py": {
+            "label": "Test (test_longest_palindrome.py)",
+            "command": "python src/test_longest_palindrome.py"
+        },
+        "test_test_palindrome_py": {
+            "label": "Test (test_palindrome.py)",
+            "command": "python src/test_palindrome.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_longest_palindrome_py": {
+            "label": "ipdb Test (test_longest_palindrome.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_longest_palindrome.py"
+        },
+        "dbg_test_test_palindrome_py": {
+            "label": "ipdb Test (test_palindrome.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_palindrome.py"
+        }
+    }
+}

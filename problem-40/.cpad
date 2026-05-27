@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_graph_py": {
+            "label": "Test (test_graph.py)",
+            "command": "python src/test_graph.py"
+        },
+        "test_test_network_delay_py": {
+            "label": "Test (test_network_delay.py)",
+            "command": "python src/test_network_delay.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_graph_py": {
+            "label": "ipdb Test (test_graph.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_graph.py"
+        },
+        "dbg_test_test_network_delay_py": {
+            "label": "ipdb Test (test_network_delay.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_network_delay.py"
+        }
+    }
+}

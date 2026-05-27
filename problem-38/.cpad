@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_alien_dict_py": {
+            "label": "Test (test_alien_dict.py)",
+            "command": "python src/test_alien_dict.py"
+        },
+        "test_test_alphabet_py": {
+            "label": "Test (test_alphabet.py)",
+            "command": "python src/test_alphabet.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_alien_dict_py": {
+            "label": "ipdb Test (test_alien_dict.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_alien_dict.py"
+        },
+        "dbg_test_test_alphabet_py": {
+            "label": "ipdb Test (test_alphabet.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_alphabet.py"
+        }
+    }
+}

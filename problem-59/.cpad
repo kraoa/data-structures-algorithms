@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_interleaving_py": {
+            "label": "Test (test_interleaving.py)",
+            "command": "python src/test_interleaving.py"
+        },
+        "test_test_interleaving_solver_py": {
+            "label": "Test (test_interleaving_solver.py)",
+            "command": "python src/test_interleaving_solver.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_interleaving_py": {
+            "label": "ipdb Test (test_interleaving.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_interleaving.py"
+        },
+        "dbg_test_test_interleaving_solver_py": {
+            "label": "ipdb Test (test_interleaving_solver.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_interleaving_solver.py"
+        }
+    }
+}

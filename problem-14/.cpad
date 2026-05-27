@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_median_finder_py": {
+            "label": "Test (test_median_finder.py)",
+            "command": "python src/test_median_finder.py"
+        },
+        "test_test_stream_py": {
+            "label": "Test (test_stream.py)",
+            "command": "python src/test_stream.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_median_finder_py": {
+            "label": "ipdb Test (test_median_finder.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_median_finder.py"
+        },
+        "dbg_test_test_stream_py": {
+            "label": "ipdb Test (test_stream.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_stream.py"
+        }
+    }
+}

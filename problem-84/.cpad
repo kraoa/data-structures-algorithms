@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_daily_temperatures_py": {
+            "label": "Test (test_daily_temperatures.py)",
+            "command": "python src/test_daily_temperatures.py"
+        },
+        "test_test_temperatures_py": {
+            "label": "Test (test_temperatures.py)",
+            "command": "python src/test_temperatures.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_daily_temperatures_py": {
+            "label": "ipdb Test (test_daily_temperatures.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_daily_temperatures.py"
+        },
+        "dbg_test_test_temperatures_py": {
+            "label": "ipdb Test (test_temperatures.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_temperatures.py"
+        }
+    }
+}

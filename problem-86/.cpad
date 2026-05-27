@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_nested_py": {
+            "label": "Test (test_nested.py)",
+            "command": "python src/test_nested.py"
+        },
+        "test_test_nested_iterator_py": {
+            "label": "Test (test_nested_iterator.py)",
+            "command": "python src/test_nested_iterator.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_nested_py": {
+            "label": "ipdb Test (test_nested.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_nested.py"
+        },
+        "dbg_test_test_nested_iterator_py": {
+            "label": "ipdb Test (test_nested_iterator.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_nested_iterator.py"
+        }
+    }
+}

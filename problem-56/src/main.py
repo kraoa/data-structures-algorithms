@@ -1,0 +1,24 @@
+"""
+Runs your Solver. It's useful to see how Solver is called.
+You may want to change how Solver is constructed.
+"""
+
+from rotated import Problem
+from solver import Solver
+
+
+def banner(legend: str) -> None:
+    border = "#" * (len(legend) + 8)
+    print(border)
+    print(f"#   {legend}   #")
+    print(border)
+
+
+banner("BEGIN CODE OUTPUT")
+
+solver = Solver()
+for tc, actual, passed in Problem(Problem.get_test_cases()).run(solver):
+    status = "PASS" if passed else "FAIL"
+    print(f"[{status}] nums={tc.nums!r:25} target={tc.target!r:3} expected={tc.expected!r:3} got={actual!r}")
+
+banner("END CODE OUTPUT")

@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_count_smaller_py": {
+            "label": "Test (test_count_smaller.py)",
+            "command": "python src/test_count_smaller.py"
+        },
+        "test_test_inversions_py": {
+            "label": "Test (test_inversions.py)",
+            "command": "python src/test_inversions.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_count_smaller_py": {
+            "label": "ipdb Test (test_count_smaller.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_count_smaller.py"
+        },
+        "dbg_test_test_inversions_py": {
+            "label": "ipdb Test (test_inversions.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_inversions.py"
+        }
+    }
+}

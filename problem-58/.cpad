@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_envelopes_py": {
+            "label": "Test (test_envelopes.py)",
+            "command": "python src/test_envelopes.py"
+        },
+        "test_test_russian_doll_py": {
+            "label": "Test (test_russian_doll.py)",
+            "command": "python src/test_russian_doll.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_envelopes_py": {
+            "label": "ipdb Test (test_envelopes.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_envelopes.py"
+        },
+        "dbg_test_test_russian_doll_py": {
+            "label": "ipdb Test (test_russian_doll.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_russian_doll.py"
+        }
+    }
+}

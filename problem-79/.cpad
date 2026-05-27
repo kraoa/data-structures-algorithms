@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_ancestor_py": {
+            "label": "Test (test_ancestor.py)",
+            "command": "python src/test_ancestor.py"
+        },
+        "test_test_lca_py": {
+            "label": "Test (test_lca.py)",
+            "command": "python src/test_lca.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_ancestor_py": {
+            "label": "ipdb Test (test_ancestor.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_ancestor.py"
+        },
+        "dbg_test_test_lca_py": {
+            "label": "ipdb Test (test_lca.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_lca.py"
+        }
+    }
+}

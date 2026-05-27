@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_maximum_xor_py": {
+            "label": "Test (test_maximum_xor.py)",
+            "command": "python src/test_maximum_xor.py"
+        },
+        "test_test_xor_py": {
+            "label": "Test (test_xor.py)",
+            "command": "python src/test_xor.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_maximum_xor_py": {
+            "label": "ipdb Test (test_maximum_xor.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_maximum_xor.py"
+        },
+        "dbg_test_test_xor_py": {
+            "label": "ipdb Test (test_xor.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_xor.py"
+        }
+    }
+}

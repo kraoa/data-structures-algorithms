@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_rotated_py": {
+            "label": "Test (test_rotated.py)",
+            "command": "python src/test_rotated.py"
+        },
+        "test_test_rotated_search_py": {
+            "label": "Test (test_rotated_search.py)",
+            "command": "python src/test_rotated_search.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_rotated_py": {
+            "label": "ipdb Test (test_rotated.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_rotated.py"
+        },
+        "dbg_test_test_rotated_search_py": {
+            "label": "ipdb Test (test_rotated_search.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_rotated_search.py"
+        }
+    }
+}

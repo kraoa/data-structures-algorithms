@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_formatting_py": {
+            "label": "Test (test_formatting.py)",
+            "command": "python src/test_formatting.py"
+        },
+        "test_test_justification_py": {
+            "label": "Test (test_justification.py)",
+            "command": "python src/test_justification.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_formatting_py": {
+            "label": "ipdb Test (test_formatting.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_formatting.py"
+        },
+        "dbg_test_test_justification_py": {
+            "label": "ipdb Test (test_justification.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_justification.py"
+        }
+    }
+}

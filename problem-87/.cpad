@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_wildcard_matching_py": {
+            "label": "Test (test_wildcard_matching.py)",
+            "command": "python src/test_wildcard_matching.py"
+        },
+        "test_test_wildcards_py": {
+            "label": "Test (test_wildcards.py)",
+            "command": "python src/test_wildcards.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_wildcard_matching_py": {
+            "label": "ipdb Test (test_wildcard_matching.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_wildcard_matching.py"
+        },
+        "dbg_test_test_wildcards_py": {
+            "label": "ipdb Test (test_wildcards.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_wildcards.py"
+        }
+    }
+}

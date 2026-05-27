@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_cuts_py": {
+            "label": "Test (test_cuts.py)",
+            "command": "python src/test_cuts.py"
+        },
+        "test_test_palindrome_parts_py": {
+            "label": "Test (test_palindrome_parts.py)",
+            "command": "python src/test_palindrome_parts.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_cuts_py": {
+            "label": "ipdb Test (test_cuts.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_cuts.py"
+        },
+        "dbg_test_test_palindrome_parts_py": {
+            "label": "ipdb Test (test_palindrome_parts.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_palindrome_parts.py"
+        }
+    }
+}

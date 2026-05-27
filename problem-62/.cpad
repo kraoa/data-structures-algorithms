@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_connections_py": {
+            "label": "Test (test_connections.py)",
+            "command": "python src/test_connections.py"
+        },
+        "test_test_redundant_connection_py": {
+            "label": "Test (test_redundant_connection.py)",
+            "command": "python src/test_redundant_connection.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_connections_py": {
+            "label": "ipdb Test (test_connections.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_connections.py"
+        },
+        "dbg_test_test_redundant_connection_py": {
+            "label": "ipdb Test (test_redundant_connection.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_redundant_connection.py"
+        }
+    }
+}

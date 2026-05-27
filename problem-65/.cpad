@@ -1,0 +1,32 @@
+{
+    "targets": {
+        "run_main_py": {
+            "label": "Main (main.py)",
+            "command": "python src/main.py"
+        },
+        "test_test_booking_py": {
+            "label": "Test (test_booking.py)",
+            "command": "python src/test_booking.py"
+        },
+        "test_test_my_calendar_three_py": {
+            "label": "Test (test_my_calendar_three.py)",
+            "command": "python src/test_my_calendar_three.py"
+        },
+        "format": {
+            "label": "Format",
+            "command": "/home/coderpad/.local/bin/black src/"
+        },
+        "dbg_run_main_py": {
+            "label": "ipdb Main (main.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+        },
+        "dbg_test_test_booking_py": {
+            "label": "ipdb Test (test_booking.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_booking.py"
+        },
+        "dbg_test_test_my_calendar_three_py": {
+            "label": "ipdb Test (test_my_calendar_three.py)",
+            "command": "/home/coderpad/.local/bin/ipdb3 src/test_my_calendar_three.py"
+        }
+    }
+}
